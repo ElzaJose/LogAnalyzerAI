@@ -21,7 +21,7 @@ A Streamlit-based web application that uses Google's Gemini AI to analyze test l
 
 1. **Clone the repository**
    ```bash
-   git clone <>
+   git clone https://github.com/ElzaJose/LogAnalyzerAI.git
    cd LogAnalyzerAI
    ```
 
