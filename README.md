@@ -1,8 +1,8 @@
-# 🧠 AI Log Analyzer
+# AI Log Analyzer
 
 A Streamlit-based web application that uses Google's Gemini AI to analyze test log files and provide intelligent summaries of test failures, root causes, and suggested solutions.
 
-## 📋 Features
+## Features
 
 - **AI-Powered Analysis**: Uses Google Gemini 2.5 Pro to analyze log files
 - **Intelligent Summarization**: Extracts key information including test name, device, status, root cause, and solutions
@@ -10,7 +10,7 @@ A Streamlit-based web application that uses Google's Gemini AI to analyze test l
 - **Visual Status Indicators**: Color-coded status badges (PASS/FAIL)
 
 ![](Preview/image.png)
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -53,7 +53,7 @@ A Streamlit-based web application that uses Google's Gemini AI to analyze test l
 4. Create a new API key
 5. Copy the generated API key
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 1. **Start the application**
    ```bash
@@ -70,7 +70,7 @@ A Streamlit-based web application that uses Google's Gemini AI to analyze test l
    - Wait for AI analysis
    - View the formatted summary report
 
-## 🔧 Configuration
+## Configuration
 
 ### LLM Configuration
 
@@ -91,7 +91,7 @@ You can modify the analysis prompt in `logAnalyzer.py` around line 25. The curre
 - **ROOT CAUSE**: Why the test failed (max 2 sentences)
 - **SOLUTION**: Suggested fix or next steps
 
-## 🎨 Output Format
+## Output Format
 
 The AI analyzer provides structured output in the following format:
 
@@ -103,14 +103,14 @@ ROOT CAUSE: Brief explanation of why the test failed
 SOLUTION: Suggested resolution steps
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 - **streamlit**: Web application framework
 - **google-generativeai**: Google Gemini AI integration
 - **os**: Environment variable handling (built-in)
 - **re**: Regular expressions for text formatting (built-in)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -137,14 +137,14 @@ streamlit run logAnalyzer.py --logger.level=debug
 ```
 
 ![](Preview/Recording%202025-10-28%20141956.gif)
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
-## 📄 License
+## License
 
 This project is licensed under the MIT License
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Support for multiple log file formats (CSV, JSON, XML)
 - [ ] Support huge log files
